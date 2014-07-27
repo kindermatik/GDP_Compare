@@ -26,14 +26,16 @@ shinyUI(fluidPage(
           p("It allows you to select the country and the year range. 
             It then search for the 3 markets with closest GDP per capita and GDP per employee 
             both at the starting and the ending year and shows the evolution of these variables 
-            throughout the selected period."),
+            throughout the selected period. All figures are meassured in chained Purchase
+            Power Parity in 2005 US dollars."),
          p("It also shows the Compound Annual Growth Rate for both variables and compares it with 
            the actual year growth. This way you can see if there are virtual ot vicious cycles in 
-           the selected year range"),
+           the selected year range."),
          p("In case you select a starting year for which the selected market has no available
            data, the app will match your country with other countries with no available data at that time
           (and CAGR will not be available). Simply change the year range"),
-         p("Most of country names are fairly normal, if you have any issue finding thecorrect term 
+         p("Most of country names are fairly normal (start names with capital letters), 
+          if you have any issue finding the correct term 
            you can search for the names in Penn World Tables site (above)"),
          p("Move your mouse pointer on the graphs and you will see the exact values for each year"),
          p("If you want to see some interesting cases, write Venezuela or Singapore in the country box"),
